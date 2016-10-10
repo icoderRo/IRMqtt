@@ -15,7 +15,10 @@ mqtt.delegate = self;
 ```
 ```
 // 连接端口
-[mqtt connectToHost:(NSString *) port:(int) userName:(NSString *) password:(NSString *) keepAlive:(int) reconnect_delay:(unsigned int) reconnect_delay_max:(unsigned int) reconnect_exponential_backoff:(BOOL)];
+[mqtt connectToHost:(NSString *) port:(int) userName:(NSString *) 
+password:(NSString *) keepAlive:(int) 
+reconnect_delay:(unsigned int) 
+reconnect_delay_max:(unsigned int) reconnect_exponential_backoff:(BOOL)];
 ```
 ```
 // 订阅主题
@@ -50,7 +53,8 @@ mqtt.delegate = self;
 }
 
 // 接收到新的消息
-- (void)mosMqtt:(LCMosquittoMqtt *)mosMqtt didReceivedMessageWithTopic:(NSString *)topic data:(NSData *)data qos:(MQTTQosLevel)qos retain:(BOOL)retain messageId:(NSUInteger)MessageId{
+- (void)mosMqtt:(LCMosquittoMqtt *)mosMqtt didReceivedMessageWithTopic:(NSString *)topic         
+data:(NSData *)data qos:(MQTTQosLevel)qos retain:(BOOL)retain messageId:(NSUInteger)MessageId{
     
 }
 
@@ -60,7 +64,8 @@ mqtt.delegate = self;
 }
 
 // 订阅回调
-- (void)mosMqtt:(LCMosquittoMqtt *)mosMqtt didSubscribeWithQosCount:(NSUInteger)qosCount grantedQos:(NSArray *)grantedQos subscribeId:(int)subscribeId{
+- (void)mosMqtt:(LCMosquittoMqtt *)mosMqtt didSubscribeWithQosCount:(NSUInteger)qosCount 
+grantedQos:(NSArray *)grantedQos subscribeId:(int)subscribeId{
     
 }
 
