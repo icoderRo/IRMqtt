@@ -1,5 +1,12 @@
 # LCMqtt
+
+
+[![Build Status](https://travis-ci.org/ibireme/YYKit.svg?branch=master)](https://travis-ci.org/ibireme/YYKit)
+
+an easy way to use mqtt deal
+
 ###file:LCMosquittoMqtt 
+
 ####usage
 -
 ```
