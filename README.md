@@ -85,4 +85,5 @@ grantedQos:(NSArray *)grantedQos subscribeId:(int)subscribeId{
 - (void)mosMqtt:(LCMosquittoMqtt *)mosMqtt didDisConnectedWithReturnCode:(MQTTDisconnectReturnCode)code{
     
 }
-
+```
+LICENSE - "MIT License"
